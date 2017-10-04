@@ -6,7 +6,7 @@ export default function Input(props){
             event.preventDefault()}}>
             <input type="text" placeholder="Type Here" name="inputA" onChange={event => props.onChange(event.target.value)} value={props.value}>
             </input>
-            <label htmlFor="inputA">inputA</label>
+            <label htmlFor="inputA">Giri</label>
         </form>
     )
 }
