@@ -20,13 +20,13 @@ class App extends Component {
 
   saveInputA(text){
     this.setState({
-      inputA: 'Giri: ' + text
+      inputA: 'Giri: ' + text + '  ' + new Date()
     })
   }
 
   saveInputB(text){
     this.setState({
-      inputB: 'Eric: ' + text
+      inputB: 'Eric: ' + text + ' ' + new Date()
     })
   }
     
